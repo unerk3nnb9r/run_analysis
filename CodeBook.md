@@ -12,7 +12,7 @@ subject: the name of the subject performing an activity at a given time interval
 
 y: the name of the activity performed by a subject at a given time interval. There is 1 name and 10299 subject+activity+interval instances, therefore this constitutes a 10299 x 1 frame.
 
-Next, mean and standard deviation measurements are extracted. Only 66 features lay in this category, therefore the result is a 10299 x 66 frame. Mean and standard deviation appear to have been normalized, laying in the range (-1, 1).
+Next, mean and standard deviation measurements are extracted. Only 66 features lay in this category, therefore the result is a 10299 x 66 frame. From the description, we know that the sensor signals have been pre-processed. Mean and standard deviation appear to have been normalized and lay in the range (-1, 1).
 
 Next, activities are given to meaningful names based on the content of the file "activity_labels.txt": 
 
